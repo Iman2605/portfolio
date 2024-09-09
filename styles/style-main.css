@@ -1,0 +1,105 @@
+:root {
+	--blue: #408EC6;
+	--indigo:  #1E2761;
+	--maroon: #7A2048;
+	--primary-0: #009999;
+	--primary-4: #005D5D;
+	--secondary1-0: #FFDF00;
+	--secondary2-0: #B90091;
+	--secondary2-1: #CB4FB0;
+	--primary-t-0: rgba(0,153,153,1);
+	--secondary1-t-0: rgba(255,223,0,1);
+	--secondary2-t-0: rgba(185,0,145,1);
+	--pozadina: #222626;
+}
+
+body {
+	background-image: url("../images/pozadina.jpg");
+}
+
+.meni {
+	background: var(--secondary2-1);
+}
+
+.circle {
+	display: inline-block; 
+	position: relative; 
+	width: 40px; 
+	height: 40px; 
+	overflow: hidden;
+	border-radius: 50%; 
+} 
+
+.circle img {
+	width: auto; 
+	height: 100%; 
+}
+
+input.form-control {
+	background: white;
+	margin-left: auto;
+	display: flex;
+	align-items: end;
+}
+
+#pocetna {
+	display: block;
+	width: 200px;
+	border-radius: 3%;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+
+.v-nav {
+	list-style-type: none;
+	margin: auto;
+	padding: 15px;
+}
+
+.v-item {
+	margin: 30px 0;
+}
+.v-item a {
+	color: black;
+	text-decoration: none;
+}
+
+.v-item a:hover {
+	color: var(--primary-4);
+}
+
+.nav-dugmic a{
+	color: white;
+}
+
+.nav-dugmic a:hover{
+	color: black;
+}
+
+.nav-dugmic a:active{
+	text-decoration: underline;
+}
+
+.search-container {
+	position: relative;
+}
+
+/*ubacivanje search ikonice u input field sam preuzela sa Interneta, tacnije pomocu AI*/
+.search-icon {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#clanak {
+	display: none;
+
+}
+#side a:hover{
+	background-color: var(--secondary2-1);
+}
+
+
+

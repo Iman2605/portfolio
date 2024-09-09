@@ -1,0 +1,118 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style-AI-kopilot.css">
+</head>
+<body>
+<div class="container" >
+    <div class="row">
+        <div class="col-sm-8 ">
+            <div class="row text-center">
+               <div class = "col-sm-8">
+                   <br/>
+                   <h3><strong>AI copilot enhances human precision for safer aviation</strong></h3>
+                   <br/>
+               </div>
+            </div>
+
+            <div class="row text-center">
+                <div class = "col-sm-8">
+                    <br/>
+                    <h5>Designed to ensure safer skies, “Air-Guardian” blends human intuition with machine precision, creating a more symbiotic relationship between pilot and aircraft.</h5>
+                    <br/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-sm-8">
+                    <h5 id = introduction>Introduction</h5>
+                    <p>
+                        Imagine you're in an airplane with two pilots, one human and one computer. Both have their “hands” on the controllers, but they're always looking out for different things. If they're both paying attention to the same thing, the human gets to steer. But if the human gets distracted or misses something, the computer quickly takes over.
+
+                        Meet the Air-Guardian, a system developed by researchers at the MIT Computer Science and Artificial Intelligence Laboratory (CSAIL). As modern pilots grapple with an onslaught of information from multiple monitors, especially during critical moments, Air-Guardian acts as a proactive copilot; a partnership between human and machine, rooted in understanding attention
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-sm-8">
+                    <h5 id = work>How does it work?</h5>
+                    <p>
+                        But how does it determine attention, exactly? For humans, it uses eye-tracking, and for the neural system, it relies on something called "saliency maps," which pinpoint where attention is directed. The maps serve as visual guides highlighting key regions within an image, aiding in grasping and deciphering the behavior of intricate algorithms. Air-Guardian identifies early signs of potential risks through these attention markers, instead of only intervening during safety breaches like traditional autopilot systems.
+
+                        The broader implications of this system reach beyond aviation. Similar cooperative control mechanisms could one day be used in cars, drones, and a wider spectrum of robotics.
+
+                        "An exciting feature of our method is its differentiability," says MIT CSAIL postdoc Lianhao Yin, a lead author on a new paper about Air-Guardian. "Our cooperative layer and the entire end-to-end process can be trained. We specifically chose the causal continuous-depth neural network model because of its dynamic features in mapping attention. Another unique aspect is adaptability. The Air-Guardian system isn't rigid; it can be adjusted based on the situation's demands, ensuring a balanced partnership between human and machine."
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-sm-8">
+                    <h5 id = test>Testing</h5>
+                    <p>
+                        In field tests, both the pilot and the system made decisions based on the same raw images when navigating to the target waypoint. Air-Guardian’s success was gauged based on the cumulative rewards earned during flight and shorter path to the waypoint. The guardian reduced the risk level of flights and increased the success rate of navigating to target points.
+
+                        "This system represents the innovative approach of human-centric AI-enabled aviation," adds Ramin Hasani, MIT CSAIL research affiliate and inventor of liquid neural networks. "Our use of liquid neural networks provides a dynamic, adaptive approach, ensuring that the AI doesn't merely replace human judgment but complements it, leading to enhanced safety and collaboration in the skies."
+
+                        The true strength of Air-Guardian is its foundational technology. Using an optimization-based cooperative layer using visual attention from humans and machine, and liquid closed-form continuous-time neural networks (CfC) known for its prowess in deciphering cause-and-effect relationships, it analyzes incoming images for vital information. Complementing this is the VisualBackProp algorithm, which identifies the system's focal points within an image, ensuring clear understanding of its attention maps.
+
+                        For future mass adoption, there's a need to refine the human-machine interface. Feedback suggests an indicator, like a bar, might be more intuitive to signify when the guardian system takes control.
+
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class = "col-sm-8">
+                    <h5 id = conclusion>Conclusion</h5>
+                    <p>
+                        "One of the most interesting outcomes of using a visual attention metric in this work is the potential for allowing earlier interventions and greater interpretability by human pilots," says Stephanie Gil, assistant professor of computer science at Harvard University, who was not involved in the work. "This showcases a great example of how AI can be used to work with a human, lowering the barrier for achieving trust by using natural communication mechanisms between the human and the AI system."
+
+                        This research was partially funded by the U.S. Air Force (USAF) Research Laboratory, the USAF Artificial Intelligence Accelerator, the Boeing Co., and the Office of Naval Research. The findings don't necessarily reflect the views of the U.S. government or the USAF.
+
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-sm-4">
+            <br/>
+            <div class="row">
+                <div class = "card">
+                    <h3 style = "color: black">Table of content</h3>
+                    <ul style = "text-decoration: none">
+                        <li><a href = "#introduction">Introduction</a></li>
+                        <li><a href = "#work">How does it work?</a></li>
+                        <li><a href = "#test">Testing</a></li>
+                        <li><a href = "#conclusion">Conclusion</a></li>
+                    </ul>
+                </div>
+            </div>
+            <br/> <br/>
+            <div class="row">
+                <div class = "card" style = "background-color: #222626; border-color: #222626">
+                    <img class = "card-img" src = "./images/kopilot.png" alt = "Kopilot">
+                </div>
+            </div>
+            <br/> <br/>
+            <div class="row">
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/tcq2MJESRFo?controls=0">
+                </iframe>
+            </div>
+            <br/> <br/> <br/>
+            <div class = "row">
+                <video  autoplay controls>
+                    <source src="videos/avion.mp4" type="video/mp4">
+                </video>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

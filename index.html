@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio - Iman Mahmutovic</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+	<link rel="stylesheet" href="styles/style-main.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class = "container-fluid" >
+
+	<a id = "top"></a>
+	<div class = "row">
+
+        <!--HORIZONTALNI NAVBAR-->
+		<header class = "col-sm-12 meni">
+
+			<nav class="navbar navbar-expand-lg">
+
+					<ul class="navbar-nav mr-auto">
+
+						<li>
+							<div class="container">
+								<a href="index.html">
+									<div class = "circle"> <img src="./images/navslika2.jpg" alt="Avatar"> </div>
+								</a>
+							</div>
+						</li>
+
+						<li class="nav-dugmic">
+							<a class="nav-link" href="projects.html">Projects</a>
+						</li>
+
+						<li class="nav-dugmic">
+							<a class="nav-link" href="education.html">Education</a>
+						</li>
+
+						<li class="nav-dugmic">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+
+						<li class="nav-dugmic">
+							<a class="nav-link" href="gallery1.html">Gallery 1</a>
+						</li>
+
+						<li class="nav-dugmic">
+							<a class="nav-link" href="gallery2.html">Gallery 2</a>
+						</li>
+
+					</ul>
+					<div class = "collapse navbar-collapse justify-content-end search-container">
+						<form class="d-flex" >
+							<input class="form-control me-2"  type="search" placeholder="Search" aria-label="Search">
+							<span class="material-symbols-outlined search-icon">search</span>
+
+						</form>
+					</div>
+			</nav>
+		</header>
+	</div>
+
+	<div class = "row">
+
+		<div class = "col-sm-8 gx-5 gy-5">
+			<h5>About me</h5>
+			<p>
+				Hello! I’m Iman Mahmutovic, a senior year undergraduate at the Faculty of Natural Sciences and Mathematics.
+				My journey into the world of computer science has been one of constant learning and discovery, and I’m excited to share it with you.
+				From a young age, I’ve always been fascinated by how things work. This curiosity led me to computer science,
+				a field that combines logical thinking and creativity in equal measure.
+				When I’m not immersed in my studies, you’ll find me exploring the great outdoors.
+				Hiking and swimming are two of my favorite activities, and I find that they help clear my mind and inspire new ideas.
+				I also love spending quality time with my friends and family, which keeps me grounded and reminds me of what’s truly important in life.
+				I believe that good organization is key to managing the demands of college life and making time for hobbies.
+				It’s a skill that I’ve worked hard to develop, and it’s served me well in both my academic and personal life.
+				Looking ahead, I’m excited about the opportunities that lie in the field of computer science.
+				I’m eager to take on new challenges, contribute to innovative projects, and continue learning and growing in this dynamic field.
+				Thank you for taking the time to visit my page. I hope you enjoy exploring my projects and learning more about my journey in computer science!
+			</p>
+		</div>
+
+		<div class = "col-sm-4 gx-5 gy-5">
+			<img id = "pocetna" src="./images/pocetna_slika.jpg" alt="Pocetna">
+		</div>
+
+	</div>
+
+	<div class = "row">
+		<div class = "col-sm-5 gx-5 gy-1">
+			<h5>Contact form</h5>
+           <!--dio koda za formu preuzet sa: https://getbootstrap.com/docs/4.0/components/forms/ -->
+			<form>
+				<div class="form-group">
+					<label>Name</label>
+					<input type="text" class="form-control"  placeholder="Name">
+				</div>
+				<div class="form-group">
+					<label>Surname</label>
+					<input type="text" class="form-control"  placeholder="Surname">
+				</div>
+				<div class="form-group">
+					<label for="exampleInputEmail1">Email address</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+					<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+				</div>
+				<div class="form-group">
+					<label>Subject</label>
+					<input type="text" class="form-control">
+				</div>
+
+               <!-- ideja za text area preuzeta sa: https://mdbootstrap.com/docs/standard/extended/textarea/-->
+				<div class="form-outline">
+					<label class="form-label" >Message</label>
+					<textarea class="form-control" id="textAreaExample1" rows="4"></textarea>
+				</div>
+                <br/>
+				<button type="reset" class="btn btn-primary" style = "background-color: #B90091; border-color:#B90091">
+					Submit</button>
+			</form>
+		</div>
+	</div>
+
+<!--dio koda za footer kopiran sa: https://mdbootstrap.com/docs/standard/navigation/footer/-->
+	<footer class="text-center col-sm-12" >
+		<div class="container-fluid p-4">
+			<section class="mb-1">
+
+				<a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/iman.mahmutovic.9?mibextid=LQQJ4d"
+				   target = _blank>
+					<i class="fa fa-facebook-f" style = "color: rgb(30, 48, 80)"></i>
+				</a>
+
+				<a class="btn btn-outline-light btn-floating m-1" href="https://instagram.com/imaan.ma?igshid=eDU5enJ4d3gzbTl3&utm_source=qr"
+				   target = _blank>
+					<i class="fa fa-instagram" style = "color: rgb(30, 48, 80)"></i>
+				</a>
+
+				<a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/iman-mahmutovic-00235126a/"
+				   target = _blank>
+					<i class="fa fa-linkedin-square" style = "color: rgb(30, 48, 80)"></i>
+				</a>
+
+				<a class="btn btn-outline-light btn-floating m-1" href="https://github.com/Iman2605"
+				   target = _blank>
+					<i class="fa fa-github" style = "color: rgb(30, 48, 80)"></i>
+				</a>
+			</section>
+		</div>
+        <div class = "row">
+		<div class="p-1 col-sm-12" style="background-color: rgba(0, 0, 0, 0.2);">
+			<a class = "pull-left" href = "#top" style = "color: black; text-decoration: none; padding-left: 20px">
+				Back to top</a>
+			<p>© 2023 Copyright</p>
+		</div>
+		</div>
+
+	</footer>
+
+
+
+</body>
+</html>

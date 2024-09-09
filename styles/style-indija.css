@@ -1,0 +1,37 @@
+:root {
+    --blue: #408EC6;
+    --indigo:  #1E2761;
+    --maroon: #7A2048;
+    --primary-0: #009999;
+    --primary-4: #005D5D;
+    --secondary1-0: #FFDF00;
+    --secondary2-0: #B90091;
+    --secondary2-1: #CB4FB0;
+    --primary-t-0: rgba(0,153,153,1);
+    --secondary1-t-0: rgba(255,223,0,1);
+    --secondary2-t-0: rgba(185,0,145,1);
+    --pozadina: #222626;
+}
+
+body {
+    background-image: url("../images/pozadina5.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+}
+
+li a {
+    color:black;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--secondary2-0);
+}
+
+#a2 {
+    background-color: black;
+    color: white;
+}
